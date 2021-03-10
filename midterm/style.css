@@ -27,7 +27,7 @@ body {
    float:left;
 }
  
-
+/*h1 styling*/
 .centered{
    position:absolute;
    top:50%;
@@ -115,7 +115,7 @@ h1{
    width:280px;
    height:300px;
 }
- 
+ /*form styling*/
 input[type=text], select, textarea {
    width: 100%;
    padding: 12px;
@@ -135,6 +135,7 @@ input[type=text], select, textarea {
    width: 40px;
  }
 
+/*box around form styling*/
  .box{
    width: 95%;
    border: 1px solid rgb(3, 10, 3);
@@ -143,6 +144,7 @@ input[type=text], select, textarea {
    margin-right:auto;
  }
  
+ /*form styling*/
  
  .form {
    border-radius: 1px;
