@@ -59,16 +59,18 @@ table {
     width:150px;
    }
 
-
+/* styling on the main header */
 .header {
     overflow: hidden;
     background-color: #c78c06;
     padding: 20px 0px;
   }
+  /* styling for the hover on the main header */
   .header a:hover {
     background-color: #c78c06;
     color: black;
   }
+
   .header a {
     display: block;
     color:#c78c06;
@@ -100,6 +102,8 @@ table {
   }
  /* Banner Styling*/
 
+ /* creationg of shadow box with image in the back*/
+
 .box {
         background-image: url("images/main-banner.jpg");
         width: 100%;
@@ -116,7 +120,7 @@ table {
     
     }
     
-  
+  /* styling for button */
  
 #bconnect {
     background-color: #c78c06; /* orange */
@@ -139,7 +143,7 @@ table {
      font-weight: bold;
      line-height: 60px;
   }
-
+/* styling for all h2 in the website */
   .h2{ font-family: "Open Sans", 'sans-serif';
      font-size:  4em;
      padding-top:15px ;
@@ -174,7 +178,7 @@ table {
     padding:5px;
 }
 
-
+/* styling for the first section where the two services would be */
 .first-section { 
     margin: auto 0;
     padding:5px;
@@ -230,7 +234,7 @@ table {
     margin: auto 0; 
 
 }
-
+/* styling for the h3 of all the services   */
 .text-digital h3, .text-marketing h3, .text-video h3 , .text-webdev h3, .text-print h3 {
     font-family: "Open Sans", 'sans-serif';
     font-size:20px;
@@ -241,7 +245,7 @@ table {
     padding-top: 30px;
 
 }
-
+/* styling buttons under the our services section   */
 .button {
     background-color: #222; 
     border: none;
@@ -259,6 +263,7 @@ table {
     margin-bottom: -5px;
     display: block;
 }
+/* styling for the services images so that they are all the same  */
 
 #marketing-image{
     width:98%;
@@ -288,20 +293,21 @@ table {
     margin-bottom: -5px;
     display: block;
 }
+/* styling for the form to contact the company */
 
 .form1 { 
     width:100%; 
     align-content: center; 
 
 }
-
+/* styling for the row of the table   */
 #hours th { 
 
     font-family: "Open Sans", 'sans-serif';
     font-size: 14px;
     background-color: #ffe6ac;
-    align
 }
+/* styling for the table from the second column to the last column  */
 
 #hours td { 
 
