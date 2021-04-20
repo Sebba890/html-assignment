@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
 <title>Three Star Media</title>
 </head>
 <body> 
 
-<div class="Logo">
+<div class="header">
     <!--Import of Logo-->
  <img src="./images/logo.png" alt="image of logo" id="logo">
    
     <!--Navigation Start-->
-    <ul>
-        <li> Home  </li>
-        <li> About Us  </li>
-        <li> Services </li>
-        <li> Team </li>
-        <li> Contact </li>
-    </ul>
-    <!--Creation of Search Bar-->
+    <ul class="nav">
+        <a class="active" href="#home"> Home  <a>
+        <a> About Us  </a>
+        <a> Services <a>
+        <a> Team </a>
+        <a> Contact </a>
+          <!--Creation of Search Bar-->
     <input type="text" placeholder="Search..">
+    </ul>
+  
     <!--Navigation Close-->
 </div>
 
@@ -27,6 +31,8 @@
     <!--creation of shadowbox for css-->
     <div class="shadowbox">
         <div class="container-welcome">
+        <div class="box">
+            <div class="shadow">
 <h1>Welcome to Three Star Media</h1>
 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est ligula, 
     varius et lobortis quis, mattis ut felis. Quisque lobortis vulputate pharetra. Aliquam dolor lorem, 
@@ -34,13 +40,21 @@
     Nullam accumsan ante felis, in elementum orci ullamcorper a. Vestibulum tellus risus, 
     lobortis consequat leo auctor, commodo mattis ex. Phasellus eleifend eget ligula quis bibendum.  </p>
 <!--Creation of button-->
+      
     <button type="button" id="bconnect">Connect with us &#x25B6;</button>
-        </div>
-    <img src="images/main-banner.jpg" alt="image of main-banner" id="main-banner">
+        </div>  
+    </div>
+    </div>
+    
     </div>
 <!--About Us Area-->
     <div class="aboutus">
+        <div class="cream-box">
+            <!--Import of Image-->
+            <img src="images/about-us.jpg" alt="image of about-us" id="about-us">
+        </div>
         <div class="aboutus-text">
+    
         <h2> About Us </h2>
          <!--Import of paragraphs-->
         <p>Lorem ipsum dolor 
@@ -56,10 +70,7 @@
         </p>
 
         </div>
-        <div class="cream-box">
-            <!--Import of Image-->
-            <img src="images/about-us.jpg" alt="image of about-us" id="about-us">
-        </div>
+  
 
     </div>
 
@@ -82,11 +93,14 @@
                 Nullam accumsan ante felis, in elementum orci ullamcorper a. Vestibulum tellus risus, 
                 rtis consequat leo auctor, commodo mattis ex. Phasellus eleifend eget ligula quis bibendum.</p>
                 <!--Creation of button-->
-                <button type="button">Digital Plans &#x25B6;</button>
+                <button type="button" class="button">Digital Plans &#x25B6;</button>
             </div>
         </div>
         <!--Marketing Area-->
         <div class="marketing">
+           <h3 class="white">
+
+           </h3>
             <div class="img-marketing">
                 <img src="images/marketing.jpg" alt="image of marketing" id="marketing-image">
             </div>
@@ -97,7 +111,7 @@
                 Nullam accumsan ante felis, in elementum orci ullamcorper a. Vestibulum tellus risus, 
                 rtis consequat leo auctor, commodo mattis ex. Phasellus eleifend eget ligula quis bibendum.</p>
                 <!--Creation of Button-->
-                <button type="button">Marketing Plans &#x25B6;</button>
+                <button type="button" class="button">Marketing Plans &#x25B6;</button>
             </div>
         </div>
 
@@ -117,7 +131,7 @@
                 Nullam accumsan ante felis, in elementum orci ullamcorper a. Vestibulum tellus risus, 
                 rtis consequat leo auctor, commodo mattis ex. Phasellus eleifend eget ligula quis bibendum.</p>
                 <!--Creation of button-->
-                <button type="button">Video Plans &#x25B6;</button>
+                <button type="button" class="button">Video Plans &#x25B6;</button>
             </div>
         </div>
         <!--Web Development Area-->
@@ -132,7 +146,7 @@
                 Nullam accumsan ante felis, in elementum orci ullamcorper a. Vestibulum tellus risus, 
                 rtis consequat leo auctor, commodo mattis ex. Phasellus eleifend eget ligula quis bibendum.</p>
                 <!--Creation of button-->
-                <button type="button">Web Plans &#x25B6;</button>
+                <button type="button" class="button">Web Plans &#x25B6;</button>
             </div>
         </div>
          <!--Print Area-->
@@ -164,7 +178,7 @@
         </div>
     <!--Creation of Button-->
         <div class="button3">
-            <button id="learn">Learn More &#x25B6;</button>
+            <button id="learn" class="button1">Learn More &#x25B6;</button>
         </div>
     
     <!--Images of the team -->
