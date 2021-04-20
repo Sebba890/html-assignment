@@ -210,6 +210,26 @@ table {
     margin: auto 0; 
 }
 
+.text-webdev { 
+
+    margin: auto 0;
+    font-family: "Open Sans", 'sans-serif';
+    font-size:12px;
+    background-color: #ffe6ac; 
+    padding:16px; 
+    margin: auto 0; 
+}
+
+.text-print { 
+    
+    margin: auto 0;
+    font-family: "Open Sans", 'sans-serif';
+    font-size:12px;
+    background-color: #ffe6ac; 
+    padding:16px; 
+    margin: auto 0; 
+
+}
 
 .text-digital h3, .text-marketing h3, .text-video h3 , .text-webdev h3, .text-print h3 {
     font-family: "Open Sans", 'sans-serif';
@@ -222,9 +242,6 @@ table {
 
 }
 
-
-
-
 .button {
     background-color: #222; 
     border: none;
@@ -235,6 +252,7 @@ table {
     display: inline-block;
     font-size: 13px;
   }
+
   #digital-image{
     width:98%;
     margin-left: 5px;
@@ -271,6 +289,27 @@ table {
     display: block;
 }
 
+.form1 { 
+    width:100%; 
+    align-content: center; 
+
+}
+
+#hours th { 
+
+    font-family: "Open Sans", 'sans-serif';
+    font-size: 14px;
+    background-color: #ffe6ac;
+    align
+}
+
+#hours td { 
+
+    font-family: "Open Sans", 'sans-serif';
+    font-size: 14px;
+    color:#222;
+    background-color: white;
+    align-content: center;
 
 
-
+}
